@@ -38,6 +38,7 @@ The following article were published on this topic. The list is sorted alphabeti
 - NYT
   - [Who’s Worth What at the White House: The Financial Disclosures](https://www.nytimes.com/2017/03/31/us/politics/white-house-releases-staff-financial-disclosures.html) 2017-03-31
   - [Wealthy in the White House: President Trump’s Inner Circle](https://www.nytimes.com/2017/04/01/us/politics/white-house-wealth-cohn-kushner-spicer.html?smid=fb-nytimes&smtyp=cur) 2017-04-01
+  - [How Much People in the Trump Administration Are Worth](https://www.nytimes.com/interactive/2017/04/01/us/politics/how-much-people-in-the-trump-administration-are-worth-financial-disclosure.html) 2017-04-03
 - Politico
   - [White House staff financial disclosures: A deeper dive into the forms](http://www.politico.com/story/2017/03/white-house-staff-financial-disclosure-forms-236770) 2017-03-31
     - This includes a list of top names with links
