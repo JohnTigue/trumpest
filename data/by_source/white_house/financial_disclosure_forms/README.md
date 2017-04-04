@@ -45,5 +45,7 @@ The following article were published on this topic. The list is sorted alphabeti
   - [The White House Wouldn’t Post Trump Staffers’ Financial Disclosures. So We Did.](https://www.propublica.org/article/white-house-wouldnt-post-trump-staffers-financial-disclosures) 2017-04-01
 - Quartz
   - [Where to read the nitty-gritty details of White House employees’ personal finances](https://qz.com/947833/sean-spicer-steve-bannon-ivanka-trump-jared-kushner-where-to-read-the-financial-disclosures-of-over-60-of-the-white-houses-wealthiest-employees/) 2017-04-01
+- Vox
+  - [5 big takeaways from the White House financial disclosures](http://www.vox.com/2017/4/3/15147690/takeaways-white-house-financial-disclosures-trump-kushner)
 - Washington Post
   - [Here is what Post reporters found in the financial disclosures of top White House aides](https://www.washingtonpost.com/news/post-politics/wp/2017/04/01/here-is-what-post-reporters-found-in-the-financial-disclosures-of-top-white-house-aides/) 2017-04-01
