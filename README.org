@@ -5,5 +5,6 @@ The core of the idea is to use [[https://www.w3.org/2013/csvw/wiki/Main_Page][CS
 
 For example, if two repos of data have CSVs with columns containing individuals names, then CSVW can be used to map between those two repos so that "joins" can be performed to find individuals on which there is data within both repos. 
 
-The term "database" as used explicitly does not mean RDBMS/SQL tech. This is only about how data is
-expressed on the web, which may very well have a RDBMS behind it but that is irrelevant.
+The term "database" as used herein explicitly does not mean RDBMS/SQL tech. This is only about how data is
+expressed on the web, which may very well have a RDBMS behind it - or be based in a Google Doc spreadsheet - but such details are irrelevant.
+ 
