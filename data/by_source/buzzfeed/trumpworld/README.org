@@ -1,29 +1,40 @@
 * Trumpwold
-Trump
+TrumpWorld is BuzzFeed's database on Trump. As BuzzFeed described their introductory article, [[https://www.buzzfeed.com/johntemplon/help-us-map-trumpworld][Help Us Map Trump’s Global Businesses And Associates - BuzzFeed News]]:
+#+BEGIN_QUOTE
+We logged more than 1,500 people and organizations connected to the incoming administration. Now we want your help to understand them and to add more.
+#+END_QUOTE
 
-- [[https://www.buzzfeed.com/johntemplon/help-us-map-trumpworld?bftwnews&utm_term=.lngX4M9rP#.xuleBvQAb][Help Us Map Trump’s Global Businesses And Associates - BuzzFeed News]]
-- https://www.buzzfeed.com/johntemplon/help-us-map-trumpworld
-- GitHub
-  - https://github.com/BuzzFeedNews/trumpworld
-    - https://github.com/BuzzFeedNews/trumpworld/tree/master/data
-      - [[https://raw.githubusercontent.com/BuzzFeedNews/trumpworld/master/data/org-org-connections.csv][org-org-connections.csv]]
-      - [[https://raw.githubusercontent.com/BuzzFeedNews/trumpworld/master/data/person-person-connections.csv][person-person-connections.csv]]
-      - [[https://raw.githubusercontent.com/BuzzFeedNews/trumpworld/master/data/person-org-connections.csv][person-org-connections.csv]]
-- [[https://docs.google.com/spreadsheets/d/1Z5Vo5pbvxKJ5XpfALZXvCzW26Cl4we3OaN73K9Ae5Ss/edit#gid=2097215557][GDoc Spreadsheet]]
-- viz list from JSV
-  | url                                                        | webUI | code    | notes                                       |
-  |------------------------------------------------------------+-------+---------+---------------------------------------------|
-  | [[https://medium.com/graph-commons/the-trump-network-8610c92035fb#.k8uzbxxrd][Graphcommons]]                                               | [[https://graphcommons.com/graphs/ee4a43a2-3189-4f82-879c-960344332ea6][Y]]     | N       | medium post & S/W demo of big graph         |
-  | [[https://dzone.com/articles/analyzing-the-buzzfeed-trumpworld-dataset-with-neo][Analyzing the BuzzFeed TrumpWorld Dataset With Neo4j]]       | N?    | Neo4j   |                                             |
-  | [[http://www.lyonwj.com/2017/01/30/trumpworld-us-contracting-data-neo4j/][Neo4J: TrumpWorld Crossed with Government Contracting Data]] | N?    | Neo4J   |                                             |
-  | Ben Chan [[https://benjamin-chan.github.io/trumpworld/bignet.html][dynamic layout net]] (slow) + [[https://benjamin-chan.github.io/trumpworld/][github]]                |       | R->HTML | "zoomable, interactive network graph"       |
-  | [[http://r.prevos.net/trumpworld-analysis/][provos.net]]                                                 | N     | R       |                                             |
-  | [[https://kumu.io/TripKrant/trump-network-buzzfeed-data-set#trump-network-buzzfeed-data-set][kumo.io]]                                                    | Y     | N       |                                             |
-  | nj1: [[https://gist.github.com/jexp/90f590ad1d125284bc35223c86bebd33][into Neo4j]]                                            | N     | Neo4j   |                                             |
-  | nj2: [[http://portal.graphgist.org/graph_gists/3b255f1d-509a-4b1c-b8e5-1442efdd036d][into N4j]]                                              | Y     | No?     |                                             |
-  | nj3: [[https://neo4j.com/blog/buzzfeed-trumpworld-dataset-neo4j/][blog]]                                                  | N?    | Y       |                                             |
-  | [[https://github.com/khughitt/trump-world][khughitt]]                                                   | N     | R       |                                             |
-  | [[http://danielalfred.com/projects/trumpworld/][danielalfred]]                                               | Y     | N       | textual search to graph                     |
-  | [[http://trump.kimalbrecht.com/][kimalbrect]]                                                 | Y     | N       | D3 tree, on subject at a time, or [[http://trump.kimalbrecht.com/network/][full tree]] |
-  | [[https://blog.grakn.ai/https-blog-grakn-ai-trumpworld-making-a-knowledge-graph-a0fa27c57325][Putting the TrumpWorld data into GRAKN.AI]]                  | N     | ~Y      | demo by GraknLabs writer w/ vid             |
+** What it is
+It seems to be exported from some network mapping application.
+The export consists of 3 tables:
+- organization to organization relationships
+- organization to person relationships
+- person to person relationships
+
+The data is available in a [[https://docs.google.com/spreadsheets/d/1Z5Vo5pbvxKJ5XpfALZXvCzW26Cl4we3OaN73K9Ae5Ss/edit#gid=2097215557][Google Docs spreadsheet]]. The data is also in GitHub.
+
+** On GitHub
+- https://github.com/BuzzFeedNews/trumpworld
+  - https://github.com/BuzzFeedNews/trumpworld/tree/master/data
+    - [[https://raw.githubusercontent.com/BuzzFeedNews/trumpworld/master/data/org-org-connections.csv][org-org-connections.csv]]
+    - [[https://raw.githubusercontent.com/BuzzFeedNews/trumpworld/master/data/person-person-connections.csv][person-person-connections.csv]]
+    - [[https://raw.githubusercontent.com/BuzzFeedNews/trumpworld/master/data/person-org-connections.csv][person-org-connections.csv]]
+
+** Visualizations 
+This list is from [[https://www.buzzfeed.com/jsvine?language=en][Jeremy Singer-Vine]] of BuzzFeed, via email.
+| url                                                        | webUxsI | code    | Tigue's notes                               |
+|------------------------------------------------------------+-------+---------+---------------------------------------------|
+| [[https://medium.com/graph-commons/the-trump-network-8610c92035fb#.k8uzbxxrd][Graphcommons]]                                               | [[https://graphcommons.com/graphs/ee4a43a2-3189-4f82-879c-960344332ea6][Y]]     | N       | medium post & S/W demo of big graph         |
+| [[https://dzone.com/articles/analyzing-the-buzzfeed-trumpworld-dataset-with-neo][Analyzing the BuzzFeed TrumpWorld Dataset With Neo4j]]       | N?    | Neo4j   |                                             |
+| [[http://www.lyonwj.com/2017/01/30/trumpworld-us-contracting-data-neo4j/][Neo4J: TrumpWorld Crossed with Government Contracting Data]] | N?    | Neo4J   |                                             |
+| Ben Chan [[https://benjamin-chan.github.io/trumpworld/bignet.html][dynamic layout net]] (slow) + [[https://benjamin-chan.github.io/trumpworld/][github]]                |       | R->HTML | "zoomable, interactive network graph"       |
+| [[http://r.prevos.net/trumpworld-analysis/][provos.net]]                                                 | N     | R       |                                             |
+| [[https://kumu.io/TripKrant/trump-network-buzzfeed-data-set#trump-network-buzzfeed-data-set][kumo.io]]                                                    | Y     | N       |                                             |
+| nj1: [[https://gist.github.com/jexp/90f590ad1d125284bc35223c86bebd33][into Neo4j]]                                            | N     | Neo4j   |                                             |
+| nj2: [[http://portal.graphgist.org/graph_gists/3b255f1d-509a-4b1c-b8e5-1442efdd036d][into N4j]]                                              | Y     | No?     |                                             |
+| nj3: [[https://neo4j.com/blog/buzzfeed-trumpworld-dataset-neo4j/][blog]]                                                  | N?    | Y       |                                             |
+| [[https://github.com/khughitt/trump-world][khughitt]]                                                   | N     | R       |                                             |
+| [[http://danielalfred.com/projects/trumpworld/][danielalfred]]                                               | Y     | N       | textual search to graph                     |
+| [[http://trump.kimalbrecht.com/][kimalbrect]]                                                 | Y     | N       | D3 tree, on subject at a time, or [[http://trump.kimalbrecht.com/network/][full tree]] |
+| [[https://blog.grakn.ai/https-blog-grakn-ai-trumpworld-making-a-knowledge-graph-a0fa27c57325][Putting the TrumpWorld data into GRAKN.AI]]                  | N     | ~Y      | demo by GraknLabs writer w/ vid             |
 
