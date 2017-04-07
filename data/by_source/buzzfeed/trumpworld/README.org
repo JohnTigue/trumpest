@@ -1,4 +1,4 @@
-* Trumpwold
+* TrumpWorld
 TrumpWorld is BuzzFeed's database on Trump. As BuzzFeed described their introductory article, [[https://www.buzzfeed.com/johntemplon/help-us-map-trumpworld][Help Us Map Trump’s Global Businesses And Associates - BuzzFeed News]]:
 #+BEGIN_QUOTE
 We logged more than 1,500 people and organizations connected to the incoming administration. Now we want your help to understand them and to add more.
@@ -21,7 +21,6 @@ The data is available in a [[https://docs.google.com/spreadsheets/d/1Z5Vo5pbvxKJ
     - [[https://raw.githubusercontent.com/BuzzFeedNews/trumpworld/master/data/person-org-connections.csv][person-org-connections.csv]]
 
 ** Visualizations 
-This list is from [[https://www.buzzfeed.com/jsvine?language=en][Jeremy Singer-Vine]] of BuzzFeed, via email.
 | url                                                        | webUxsI | code    | Tigue's notes                               |
 |------------------------------------------------------------+-------+---------+---------------------------------------------|
 | [[https://medium.com/graph-commons/the-trump-network-8610c92035fb#.k8uzbxxrd][Graphcommons]]                                               | [[https://graphcommons.com/graphs/ee4a43a2-3189-4f82-879c-960344332ea6][Y]]     | N       | medium post & S/W demo of big graph         |
@@ -38,3 +37,10 @@ This list is from [[https://www.buzzfeed.com/jsvine?language=en][Jeremy Singer-V
 | [[http://trump.kimalbrecht.com/][kimalbrect]]                                                 | Y     | N       | D3 tree, on subject at a time, or [[http://trump.kimalbrecht.com/network/][full tree]] |
 | [[https://blog.grakn.ai/https-blog-grakn-ai-trumpworld-making-a-knowledge-graph-a0fa27c57325][Putting the TrumpWorld data into GRAKN.AI]]                  | N     | ~Y      | demo by GraknLabs writer w/ vid             |
 
+This list was seeded from [[https://www.buzzfeed.com/jsvine?language=en][Jeremy Singer-Vine]] of BuzzFeed, via email. Note: the visualizations are neither created nor endorsed by him nor BuzzFeed.g
+
+** Code in this repository
+src/trumpworld/beachhead_filter.js:
+- JavaScript
+- Reads ProPublica's Beachhead CSV and TrumpWorld CSVs looking for matches
+- It is well documented, please see the code for more details 
