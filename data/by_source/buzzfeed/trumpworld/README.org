@@ -20,6 +20,29 @@ The data is available in a [[https://docs.google.com/spreadsheets/d/1Z5Vo5pbvxKJ
     - [[https://raw.githubusercontent.com/BuzzFeedNews/trumpworld/master/data/person-person-connections.csv][person-person-connections.csv]]
     - [[https://raw.githubusercontent.com/BuzzFeedNews/trumpworld/master/data/person-org-connections.csv][person-org-connections.csv]]
 
+** Data structure
+*** [[https://raw.githubusercontent.com/BuzzFeedNews/trumpworld/master/data/org-org-connections.csv][org-org-connections.csv]]
+Columns
+- Organization A
+- Organization B
+- Connection
+- Source(s)
+    
+*** [[https://raw.githubusercontent.com/BuzzFeedNews/trumpworld/master/data/person-person-connections.csv][person-person-connections.csv]]
+Columns
+- Person A
+- Person B
+- Connection
+- Source(s)
+    
+*** [[https://raw.githubusercontent.com/BuzzFeedNews/trumpworld/master/data/person-org-connections.csv][person-org-connections.csv]]
+Columns
+- Organization
+- Person
+- Connection
+- Source(s)
+
+      
 ** Visualizations 
 | url                                                        | webUxsI | code    | Tigue's notes                               |
 |------------------------------------------------------------+-------+---------+---------------------------------------------|

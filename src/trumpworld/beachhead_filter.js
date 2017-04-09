@@ -30,7 +30,8 @@
  *
  * This software:
  *   Language: JavaScript, runnable via NodeJS on CLI
- *   License: MIT (i.e. have fun, good luck)
+ *   License: This code is under MIT licence, you can find the complete file here: 
+ *     https://github.com/JohnTigue/trumpest/blob/master/LICENSE
  *   Author: John Tigue john@tigue.com
  *   What it does: reads both CSVs and knows what columns to use as keys for a database-style join across the 2 tables
  */
