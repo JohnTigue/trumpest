@@ -1,0 +1,21 @@
+* Trumpest best practices
+** Introduction
+This document discusses best practices for encoding Trumpest related data.
+The goal is to inform data publisher ways in which they can enable reuse of the data they publish.
+
+For example, for one data source to contain the string "John Tigue" and another to contain "Tigue, John" is not optimal.
+Another example would be dates: one source have, e.g., "Feb-14" and another "2/14" is suboptimal.
+
+(Of course, part of the magic of CSVW is the capacity to map between such inconsistencies but why make this harder than it has to be?)
+
+** Standards
+- Date and Time Formats
+  - ISO 8601 
+  - [[https://www.w3.org/TR/NOTE-datetime][W3C Note: NOTE-datetime]]
+
+** Data types
+*** Dates
+*** Names
+*** Locations
+- capitalization
+  - Pretty easy to align these in code but still "BETHESDA, Maryland" would be better as "Bethesda, Maryland"

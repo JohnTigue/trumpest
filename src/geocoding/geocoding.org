@@ -1,0 +1,18 @@
+* Geocoding
+** Introduction
+This tree is concerned with geocoding trumpest data, so that it can be rendered on maps.
+
+** Data sources
+The followng data sources are known to have geo-related data
+- OGE-Form-278
+  - location in this repo
+    - data/by_source/white_house/financial_disclosure_forms
+  - [ ] Zip Codes?
+    - [ ] PublicI's [[https://github.com/PublicI/pfd-parser][pdf-parser]] would be useful for extracting the Zip Codes, if they are in there  
+  - PublicI's [[https://docs.google.com/spreadsheets/d/1V1axPEZNHVwgpJTkWMCRJaiAU67poc4ycOaMP3xtKuE/edit#gid=225911896][spreadsheet]] has ~city-state~ e.g.
+    - Washington, District of Columbia
+    - BETHESDA, Maryland
+    
+These do not
+- TrumpWorld
+- 
