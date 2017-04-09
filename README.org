@@ -1,10 +1,23 @@
 * Trumpest
 
-The goal of this project is to create a web-tech-based distributed "database" of Trump related data.
-The core of the idea is to use [[https://www.w3.org/2013/csvw/wiki/Main_Page][CSVW]] to create web structures which allows separately developed databases to be interlinked.
+The goals of this project is to provide technology to accellerate
+investigations into Trump corruption. Action items include:
+- collect best practices for data authors for harmonizing multiple repositories of data related to Trump
+- use CSVW to make the harmonization explicit to software
+- write softwere which can be used by data authors and researchers to make them more productive
 
-For example, if two repos of data have CSVs with columns containing individuals names, then CSVW can be used to map between those two repos so that "joins" can be performed to find individuals on which there is data within both repos. 
+The core of the idea is to use [[https://www.w3.org/2013/csvw/wiki/Main_Page][CSVW]] to create web structures which
+allows separately developed data repositories ("databases") to be
+interlinked over the Web. This essentially creates a web-tech-based distributed
+"database" of Trump related data.
 
-The term "database" as used herein explicitly does not mean RDBMS/SQL tech. This is only about how data is
-expressed on the web, which may very well have a RDBMS behind it - or be based in a Google Doc spreadsheet - but such details are irrelevant.
+For example, if two repos of data have CSVs with columns containing
+individuals names, then CSVW can be used to map between those two
+repos so that "joins" can be performed to find individuals on which
+there is data within both repos.
+
+The term "database" as used herein explicitly does not mean RDBMS/SQL
+tech. This is only about how data is expressed on the web, which may
+very well have a RDBMS behind it - or be based in a Google Doc
+spreadsheet - but such details are irrelevant.
  
